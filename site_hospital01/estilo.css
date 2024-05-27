@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    border: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Titillium Web", sans-serif;
+    margin:0px;
+    
+}
+
+/* Container menu */
+
+.container{
+    margin: 0px;
+    min-width: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+header{
+    
+    border-top: 25px solid rgb(232, 234, 231);
+    /* padding: 5px; */
+}
+
+.menu{
+    font-size: 15px;
+    width: 90%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.imagem img{
+    width: 150px;
+    padding: 5px 5px;
+    
+}
+
+
+
+.menu li{
+    /* background-color: aqua; */
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    
+    
+}
+
+
+.menu nav a{
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    padding: 0px 20px ;
+}
+
+
+
+/* Sessão de imagem */
+
+img{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.container2{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    background-color: #ccc ;
+    /* justify-content: ; */
+    align-items: center;
+    font-size: 8px;
+    color: #ccc;
+    }
+
+.container2 ul li{
+    display: inline-block;
+    /* background-color: rgb(49, 223, 223); */
+    padding: 5px;
+    
+}
+
+
+#bloco1{
+    background-color: #4576ff;
+}
+
+#bloco2{
+    background-color: #2b63fa;
+}
+
+#bloco3{
+    background-color: #0e4dfa;
+}
+
+
+
+/* Parte final da sessão  */
+
+/* div{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+
+
+.container3 ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9px;
+    list-style: none;
+
+    
+}
+
+
+
+
+.container3 li{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 30px;
+    max-width: 300px;
+}
+
+
+.container3 img{
+    max-width: 50%;
+    
+
+}
+
+
+
+
+.container3 h1{
+    max-width: 100%;
+    font-size: medium;
+    text-align: center;
+}
+
+.container3 p,strong{
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+    font-size: small;
+    text-align: center;
+    color: wheat;
+    background-color: #0e4dfa;
+    width: 100%;
+    position: absolute;
+    
+}
