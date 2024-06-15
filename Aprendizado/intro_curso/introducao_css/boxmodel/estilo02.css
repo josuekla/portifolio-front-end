@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    padding: 100px;
+    background-color: #ccc;
+}
+h1{
+    text-align: center;
+    background-color: rgb(129, 144, 255);
+    padding: 3px 0px;
+}
+h2{
+    color: #2c1762;
+    background-color: #afafaf;
+    padding: 7px 5px;
+    border-bottom: 3px solid #2c1762; ;
+}
+
+#titulo{
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: small;
+    
+    
+}
+
+.p1{
+    padding-bottom: 20px;
+    font-size: small
+}
+
+p{
+    padding-bottom: 10px;
+    font-size: small
+}
+
+
+strong{
+    color:#7700ff;
+    
+}
+
+.experiencia{
+    font-size: 11px;
+}
+
+.link{
+    padding-top: px;
+}
+
+
+ul li{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}

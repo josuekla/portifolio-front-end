@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com imagens</title>
+    <style>
+        body{
+            
+            font-family: sans-serif ;
+            font-size: 22px;
+            width: 700px;
+            margin: auto;
+            background-image: url(imagens/bg.jpg);
+             /*background-repeat: no-repeat; /*O padrão é a repeat, isso ele faz com que a imagem se repita */
+             /*Também pode usar para apenas um eixo, x ou y. repeat-x ou repeat-y*/
+             background-size: 350px; /*O primeiro valor é para LARGURA e o segundo para ALTURA*/
+
+             background-attachment: fixed;
+
+             background-size: cover; /*contain -->Ele faz com que a imagem se adapte com o seu tamanho sem perder a dimensão
+             cover --> ele usa a imagem inteira mesma que deixe uma parte encondidade, ou seja, que mostrar a imagem inteira.*/
+             
+             background-position: right bottom ;
+        }
+        
+
+
+        .img-logo{
+            width: 400px;
+
+        }
+
+        .img-html{
+            float: left;
+        }
+
+        .img-css{
+            float: right;
+        }
+
+        p{
+            line-height: 1.5;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Trabalhando com imagens</h1>
+
+    <h2>imagens vetoriais vs bitmap</h2>
+
+    <img src="imagens/logo_ser-frontend-ico.png" class="img-logo" alt="logotipo ser frontend">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico.svg" class="img-logo" alt="logotipo ser frontend">
+
+    <h2>Imagens transparentes</h2>
+
+    <img src="imagens/logo_ser-frontend-ico-transparente.gif" alt="imagem transparente">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico-transparente.png" alt="imagem transparente">
+
+
+    <h2>Gif animado</h2>
+
+    <img src="imagens/walk.gif" alt="">
+    <a href="#">Fonte:hhht-pohoduhiuhfiuoiuo</a>
+
+    <h2>Float</h2>
+
+    <img src="imagens/html5.png" alt="logotipo HTML" class="img-html">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui blanditiis culpa aperiam laboriosam amet eius necessitatibus officiis, ullam aspernatur ratione quod accusantium odio deleniti quis ipsa, magnam nisi rem!Loremoaisnioavipoaweioapwhve pu ahpuieha puoiehv aouehvaiuhoiquvhoqueh vheuheqoi uhoquihorv ouihuoi </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui blanditiis culpa aperiam laboriosam amet eius necessitatibus officiis, ullam aspernatur ratione quod accusantium odio deleniti quis ipsa, magnam nisi rem!Loremoaisnioavipoaweioapwhve pu ahpuieha puoiehv aouehvaiuhoiquvhoqueh vheuheqoi uhoquihorv ouihuoi </p>
+    <br>
+
+    <img src="imagens/css3.png" alt="Logotipo css3" class="img-css">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero exercitationem explicabo amet aliquid officia nisi blanditiis eum, quibusdam, labore quo, natus ut ipsum minus eius sunt veritatis enim laudantium officiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero exercitationem explicabo amet aliquid officia nisi blanditiis eum, quibusdam, labore quo, natus ut ipsum minus eius sunt veritatis enim laudantium officiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero exercitationem explicabo amet aliquid officia nisi blanditiis eum, quibusdam, labore quo, natus ut ipsum minus eius sunt veritatis enim laudantium officiis.</p>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(255, 208, 207);
+}
+h1{color:rgb(223, 13, 255);
+    text-align: left;
+    font-family: monospace;}
+h2{
+    color:blue;
+    font-family: system-ui;
+    font-size: 19px;
+    text-align: center;
+    
+}
+h3{
+    font-style:italic ;
+        ;
+}
+p{
+    color:#f00;
+    font-size: large;
+    font-style: italic;
+    text-indent: 2%;
+    font-variant: small-caps;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
