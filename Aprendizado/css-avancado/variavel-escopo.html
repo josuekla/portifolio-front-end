@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Escopo de variáveis</title>
+
+    <style>
+        html {
+            font-size: 200%;
+        }
+
+        :root {
+            --color: red;
+        }
+
+        .container {
+            --color: orange;
+        }
+
+        p {
+            color: var(--color);
+        }
+
+        .div1 {
+            --color: green;
+        }
+        h1{
+            color: var(--color)
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="div1">
+            <p>texto 01 .</p>
+        </div>
+        <div class="div2">
+            <p>texto 02 .</p>
+        </div>
+    </div>
+    <h1>segundo texto</h1>
+    <p>teste</p>
+</body>
+
+</html>
