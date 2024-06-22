@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>box shadow</title>
+
+    <style>
+        .div {
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+
+            border-radius: 50px 20px 0 80px / 100px 50px 0 20px;
+
+            box-shadow: 20px 0 0 0 black, 10px 20px 10px red, -10px 5px 5px blue, 0 -10px 10px 5px green;
+        }
+
+
+        .div2{
+            background-color: rgb(5, 240, 105);
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+
+            border-radius: 50px / 100px;
+
+            box-shadow: 20px 0 10px rgb(200, 10, 100), -20px 0 5px 10px rgb(118, 137, 201), 0px 50px 10px rgb(255, 100, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div"> </div>
+    <div class="div2"></div>
+</body>
+
+</html>
