@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --menu-color: #162028;
+}
+
+
 html{
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -14,4 +22,48 @@ html,body{
 body{
     font-family: "Roboto";
     font-style: normal;
+}
+
+.header-top{
+    display: flex;
+    background-color: var(--menu-color) ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__top{
+    color: #dfdfdf;
+    font-size: 4em;
+    padding: 0% 5%;
+    font-family: "Belleza";
+    font-style: normal;
+    text-shadow: .2px 0 2px rgb(0, 0, 0),
+    .2px 0 2px rgb(0, 0, 0);
+}
+
+.nav__top{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.list__container--top{
+    display: flex;
+    padding: 0;
+    margin: 1em 2em;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.list__top{
+    margin: 0 10px;
+}
+.list__top a{
+    text-decoration: none;
+    color: #425564;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: .2em;
 }
