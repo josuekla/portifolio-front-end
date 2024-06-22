@@ -24,6 +24,14 @@ body{
     font-style: normal;
 }
 
+.pag-01__main{
+    background-image: url("/Projeto_ModaOra/inicio/imagens/imagem-topo.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .header-top{
     display: flex;
     background-color: var(--menu-color) ;
@@ -52,7 +60,7 @@ body{
     padding: 0;
     margin: 1em 2em;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
@@ -66,4 +74,18 @@ body{
     font-weight: bold;
     font-size: 2em;
     letter-spacing: .2em;
+    transition: all;
+    text-shadow: .5px 1px 4px black;
+}
+
+.list__top a:hover{
+    background-color: rgba(232, 254, 255, 0.1);
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.pag-01__image{
+    height: 100%;
+    background-size: contain;
 }
