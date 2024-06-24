@@ -7,6 +7,7 @@
 
 :root{
     --menu-color: #162028;
+    --belleza-font: font-family: "Belleza";
 }
 
 
@@ -136,4 +137,44 @@ body{
 .conteudo__textos{
     text-align: center;
     font-size: 1em;
+}
+
+.pag-03__main{
+    height: calc(100vh - 20px);
+    background-image: url("/Projeto_ModaOra/inicio/imagens/bg_detalhe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+}
+
+
+.pag-03__main--title h1{
+    font-size: 5em;
+    color: #ccc;
+    font-family: 'Belleza',sans-serif;
+    margin: 20vh 10% 0;
+    width: 75vw;
+}
+
+.pag-03__article{
+    margin: 5% 10% 0;
+    width: 55vmax;
+    color: #ccc;
+    font-size: 1.5vmax;
+    line-height: 1.6em;
+    font-weight: 500;
+    /* height: ; */
+    
+}
+
+
+footer{
+    color: #ccc;
+    font-family: "Belleza", sans-serif;
+    font-style: normal;
+    font: 600;
+    padding: 15px;
+    background-color: #6f8597;
+    text-align: center;
 }
