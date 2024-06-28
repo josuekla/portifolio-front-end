@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculadora simples</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    h1{
+        text-align: center;
+        padding: 2px; 
+        background-color: #1100ff;
+        color: #fffbfb;
+        border-bottom: #ccc solid 3px;
+        box-shadow: 1px 2px 4px black;        
+
+    }
+
+    #Resultado{
+        background-color: rgb(51, 255, 0);
+        padding: 2px 20px;
+    }
+</style>
+<body style="font-family: sans-serif;">
+    <h1>Calculadora</h1>
+    valor1: <input id= "Area1"type="number" placeholder="0"><br><br>
+    valor2: <input id= "Area2"type="number" placeholder="0"><br><br>
+    Operação: 
+    <button type="button" onclick="calcular(1)">+</button>&nbsp;
+    <button type="button" onclick="calcular(2)">-</button>&nbsp;
+    <button type="button" onclick="calcular(3)">*</button>&nbsp;
+    <button type="button" onclick="calcular(4)">/</button><br><br>
+    resultado: <span id="Resultado" >0</span>
+
+    <script src="script.js"></script>
+</body>
+</html>
