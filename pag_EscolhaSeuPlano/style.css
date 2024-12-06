@@ -23,7 +23,6 @@ body{
 .header__logo{
     text-transform: uppercase;
     margin-left: 16px;
-    align-items: center;
     font-size: 30px;
     letter-spacing: 3px;
     font-weight: 30px;
@@ -49,6 +48,7 @@ body{
     text-decoration: none;
     color: white;
     padding: 16px;
+    border-radius: 5px;
     }
     
 .header__nav a:hover{
@@ -77,14 +77,13 @@ a.planos__ul{
 }
 
 .pricing-plan{
+    flex: 1;
     background-color: #262626;
     padding: 30px;
-    flex: 1;
-    border-radius: 16px;
+    border-radius: 6px;
     box-shadow:  0 5px 12px -6px black ;  /* > ^ blur tamanho(pode ser numeros negativos -> diminui sombra) cor*/
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
 }
 
 .pricing_plan__title{

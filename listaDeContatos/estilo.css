@@ -2,8 +2,6 @@ body{
     background-color: aqua;
     font-family: sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 header h1{
@@ -20,6 +18,7 @@ header h1{
     display: flex;
     align-items: center;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 
@@ -32,32 +31,32 @@ header h1{
     margin-right: 10px;
     align-items: start;
     flex-direction: row;
+    
 }
 
 
 .container ul{
-    overflow: auto;
     height: 100px;
     background-color: aliceblue;
     list-style-type:none;
     align-items:center;
     padding: 0;
     margin: auto;
-    flex-direction: row;
-    width: 50%;
+    flex-direction: column;
+    width: 60%;
     height: 400px;
+    flex-wrap: wrap;
 }
 
 
 .container li {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
     align-items:center;
     border: 0.1px solid rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     cursor: pointer;
-    overflow:hidden;
 }
 
 .container li:hover{
@@ -79,8 +78,10 @@ header h1{
 
 .div h4{
     margin: 0px;
+    justify-content: center;    
 }
 
 .div p{
     margin: 0px;
+    justify-content: center;
 }
